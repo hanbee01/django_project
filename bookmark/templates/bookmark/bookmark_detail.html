@@ -3,4 +3,7 @@
 {% block content %}
     {{object.site_name}}<br/>
     {{object.url}}
+    <br><br>
+    <a href="{% url 'bookmark:delete' pk=bookmark.id %}" class="btn btn-danger btn-sm">Delete</a>
+
 {% endblock %}

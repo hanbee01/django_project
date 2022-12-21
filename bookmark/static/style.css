@@ -1,0 +1,6 @@
+body {
+    width:100%;
+    background:white url("images/background.png") no-repeat;
+    background-size:250px;
+    background-position: right top;
+}
